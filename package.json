@@ -1,0 +1,19 @@
+{
+  "name": "nodeshops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashifir/nodejsShop.git"
+  },
+  "author": "muhammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashifir/nodejsShop/issues"
+  },
+  "homepage": "https://github.com/kashifir/nodejsShop#readme"
+}
