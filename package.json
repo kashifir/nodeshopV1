@@ -1,19 +1,32 @@
 {
-  "name": "nodeshops",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kashifir/nodejsShop.git"
-  },
-  "author": "muhammad",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kashifir/nodejsShop/issues"
-  },
-  "homepage": "https://github.com/kashifir/nodejsShop#readme"
+    "name": "nodeshops",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kashifir/nodejsShop.git"
+    },
+    "author": "muhammad",
+    "license": "ISC",
+    "dependencies": {
+        "@types/express": "^4.17.2",
+        "bcrypt": "^3.0.8",
+        "body-parser": "1.15.2",
+        "cors": "2.8.4",
+        "express": "^4.14.0",
+        "jsonwebtoken": "7.4.2",
+        "mysql2": "^1.6.1",
+        "node-gyp": "^7.1.2",
+        "nodemon": "1.18.4",
+        "sequelize": "4.38.0"
+    },
+    "bugs": {
+        "url": "https://github.com/kashifir/nodejsShop/issues"
+    },
+    "homepage": "https://github.com/kashifir/nodejsShop#readme"
 }
