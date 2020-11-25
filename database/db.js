@@ -58,6 +58,7 @@ db.contient = require("../models/Contient")(dbinfo, Sequelize);
 db.fournisseur = require("../models/Fournisseur")(dbinfo, Sequelize);
 db.produit = require("../models/Produit")(dbinfo, Sequelize);
 db.img = require("../models/Img")(dbinfo, Sequelize);
+db.user = require("../models/user")(dbinfo, Sequelize);
 
 
 
